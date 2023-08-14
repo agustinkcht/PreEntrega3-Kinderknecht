@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Home | TicketFlush</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./img/tix-light.png" alt="Logo" width="33" height="33" class="d-inline-block align-text-top">
+              </a>
+              <a class="navbar-brand" href="./index.html">Ticket Flush</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section id="canvas-section">
+        <div class="canvasTix">
+          <img src="./img/ticket-flush.jpg" class="img-fluid" alt="ticket flush">
+      </div>
+
+      <h1>Conseguí tus tickets al instante</h1>
+
+      <a class="btn btn-primary" href="#cartelera">Ver Cartelera</a>
+
+      </section>
+
+      <section id="cartelera">
+
+        <h2>Shows Disponibles</h2>
+
+        <div class="row container fluid conciertos" id="cardsCartelera">
+        </div>
+
+      </section>
+
+      <div id="spacingBox"></div>
+
+      <section id="masInfo" class="row container">
+      </section>
+
+      <section id="formAndCheckout" class="row container hidden">
+        <div class="col-6 form">
+          <h2>Completá con tu información</h2>
+          <form id="formulario">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="inputField" id="nombre">
+              <label for="apellido">Apellido</label>
+              <input type="text" class="inputField" id="apellido">
+              <label for="email">Email</label>
+              <input type="email" name="Email" class="inputField" id="email">
+              <label for="password">Contraseña</label>
+              <input type="password" name="Pass" class="inputField" id="password">
+            <div class="formCheck">
+              <input type="checkbox" name="check" id="check">
+              <label for="check">Quiero suscribirme al newsletter</label>
+            </div>
+            <input type="submit" value="Aceptar" class="btn btn-primary">
+          </form>
+        </div>
+
+        <div class="col-6" id="checkout">
+          
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <!-- scripts bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
+    <!-- script js -->
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+    background-color: $clr-1;
+}
+
+.canvasTix {
+    img {
+        width: 100vw;
+    }
+}
+
+#canvas-section {
+    text-align: center;
+    h1 {
+        color: $clr-2;
+        padding-left: 10px;
+        position: relative;
+        bottom: 150px;
+    }
+    .btn-primary {   
+        position: relative;
+        bottom: 144px;
+        width: 200px;
+        height: 40px;
+        text-align: center; 
+    }
+}
+
+#cartelera {
+    h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 28px;
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.596);
+        position: relative;
+        left: 30px;
+        border: solid 1px;
+        border-color: rgba(255, 255, 255, 0.596);
+        border-radius: 7px;
+        padding: 5px;
+    }
+
+    .conciertos{
+        text-align: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        position: relative;
+        left: 58px;
+        .card{
+            width: 23rem;
+            height: 12rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 60px;
+            .card-img img{
+                width: 130px;               
+            }
+        }
+    }
+}
+
+#spacingBox{
+    width: 200px;
+    height: 140px;
+}
+
+#masInfo {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 170px;
+    .eventDataL, .eventDataR {
+        height: 550px;
+    }
+    .eventDataL{
+        background-color: aliceblue;
+        .img-extended1{
+            width: 500px;
+            position: relative;
+            top: 25px;
+            left: 30px;
+        }
+    }
+    .eventDataR{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        h2{
+            margin-top: 50px;
+        }
+        .importantData{
+            font-size: 19px;
+            text-align: center;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+            top: 40px;
+
+            .selectorPlace{
+                width: 200px;
+                margin-bottom: 20px;
+                display: inline;
+            }
+            .btn{
+                width: 150px;
+                margin-top: 10px;
+            }
+
+        }
+
+    }
+}
+
+
+
+#formAndCheckout {
+    .form {
+        text-align: center;
+        color: $clr-2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            margin-bottom: 30px;
+        }
+
+        form{
+            width: 430px;
+            border: solid 1px;
+            border-radius: 15px;
+            padding-bottom: 50px;
+            margin-bottom: 45px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-top: 25px;
+            gap: 8px;
+            .inputField{
+                width: 300px;
+                height: 33px;
+                border-radius: 5px;
+            }
+
+            .formCheck {
+                font-size: 18px;
+                margin-top: 40px;
+            }
+            .btn {
+                margin-top: 30px;
+                width: 300px;
+            }
+
+        }
+    }
+    #checkout{
+        color: $clr-2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            margin-bottom: 30px;
+        }
+        .concatenadoFinal {
+            text-align: center;
+            width: 430px;
+            padding: 10px;
+            background-color: rgba(250, 235, 215, 0.478);
+            border: solid 1px;
+            border-radius: 14px;
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
